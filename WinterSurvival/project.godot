@@ -11,9 +11,32 @@ config_version=5
 [application]
 
 config/name="WinterSurvival"
+run/main_scene="res://scenes/Player.tscn"
 config/features=PackedStringArray("4.5", "Mobile")
 config/icon="res://icon.svg"
 
 [rendering]
 
 renderer/rendering_method="mobile"
+
+[xogot]
+
+project/editorState=[{
+"column": 0,
+"line": 1,
+"path": "res://src/Actors/playerNode.gd",
+"type": "file"
+}, {
+"column": 27,
+"current": true,
+"line": 5,
+"path": "res://src/Actors/Actor.gd",
+"type": "file"
+}, {
+"title": "CharacterBody2D",
+"type": "doc"
+}]
+project/breakpoints={
+"res://src/Actors/Actor.gd": PackedInt32Array()
+}
+project/disabled_breakpoints={}
